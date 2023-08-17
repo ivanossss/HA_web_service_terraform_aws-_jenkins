@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Durable Task Plugin
+Specification-Version: 0.0
+Implementation-Title: Durable Task Plugin
+Implementation-Version: 513.vc48a_a_075a_d93
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: durable-task
+Short-Name: durable-task
+Long-Name: Durable Task Plugin
+Url: https://github.com/jenkinsci/durable-task-plugin
+Plugin-Version: 513.vc48a_a_075a_d93
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/durable-task-
+ plugin.git
+Plugin-ScmTag: c48aa075ad93a6750c2ed1bc18bcb0a214e4b66a
+Plugin-ScmUrl: https://github.com/jenkinsci/durable-task-plugin
+Plugin-GitHash: c48aa075ad93a6750c2ed1bc18bcb0a214e4b66a
+Implementation-Build: c48aa075ad93a6750c2ed1bc18bcb0a214e4b66a
+
