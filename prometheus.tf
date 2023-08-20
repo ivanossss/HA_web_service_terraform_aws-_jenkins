@@ -15,8 +15,8 @@ resource "aws_iam_policy" "prometheus_policy" {
   policy      = data.aws_iam_policy_document.prometheus_policy.json
 }
 
-resource "aws_iam_instance_profile" "prometheus_profile" {
-  name = "prometheus_profile"
+resource "aws_iam_instance_profile" "prometheus_profile_im" {
+  name = "prometheus_profile_im"
   role = aws_iam_role.prometheus_role.name
 }
 
@@ -48,7 +48,7 @@ resource "aws_instance" "prometheus" {
   subnet_id     = aws_subnet.subnet_a.id
   vpc_security_group_ids = [aws_security_group.prometheus_sg.id]
   associate_public_ip_address = true
-  iam_instance_profile = aws_iam_instance_profile.prometheus_profile.name
+  iam_instance_profile = aws_iam_instance_profile.prometheus_profile_im.name
 
   user_data = file("./monitoring/prometheus_configure.sh")
 

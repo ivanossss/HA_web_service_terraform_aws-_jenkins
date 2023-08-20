@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Cloud Statistics Plugin
+Specification-Version: 0.0
+Implementation-Title: Cloud Statistics Plugin
+Implementation-Version: 316.vd6d6b_292238d
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: cloud-stats
+Short-Name: cloud-stats
+Long-Name: Cloud Statistics Plugin
+Url: https://github.com/jenkinsci/cloud-stats-plugin
+Plugin-Version: 316.vd6d6b_292238d
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Developers: Oliver Gondža:olivergondza:ogondza@gmail.com,Mark Wa
+ ite:markewaite:mark.earl.waite@gmail.com
+Plugin-License-Name: The MIT license
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/cloud-stats-p
+ lugin.git
+Plugin-ScmTag: d6d6b292238d9451eeb2bc6a48effe34b98f9e41
+Plugin-ScmUrl: https://github.com/jenkinsci/cloud-stats-plugin
+Plugin-GitHash: d6d6b292238d9451eeb2bc6a48effe34b98f9e41
+Implementation-Build: d6d6b292238d9451eeb2bc6a48effe34b98f9e41
+
